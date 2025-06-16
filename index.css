@@ -115,5 +115,5 @@ p {
     line-height: 1.5;
     margin: 20px 0 0;
     font-family: var(--other-font);
-    font-weight: bolder;
+    font-weight: bolder; 
 }
