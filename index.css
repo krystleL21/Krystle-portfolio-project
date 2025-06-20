@@ -40,7 +40,7 @@ p {
 .hero {
     background: var(--primary-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 80px 20px;
 
 }
 
@@ -106,7 +106,7 @@ nav li {
     
 }
 .content-container {
-    padding: 160px 20px;
+    padding: 30px 20px;
 }
 
 .content-container h1 {
@@ -201,4 +201,11 @@ footer {
 .contact-box .btn-branding {
    padding: 50px 50px;
 
+}
+.workimg img{
+    width: 420px;
+    height: 420px;
+    border-style: solid;
+    border-color: var(--secondary-color);
+    border-radius: 45px;
 }
