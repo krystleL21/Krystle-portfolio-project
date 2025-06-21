@@ -55,21 +55,45 @@ p {
     font-weight: normal;
     font-size: 16px;
 }
-.btn-branding {
-    border-style: solid;
-    background: #ff66c4;
-    border-radius: 4px;
-    color: white;
-    font-size: 18px;
-    line-height: 27px;
-    padding: 15px 30px;
+.inline-content {
+    position: relative;
+     left: 60px;
 }
+.inline-content p {
+    position: relative;
+    right: 30px;
+}
+.btn-branding {
+    background: var(--secondary-color);
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    padding: 11px 30px;
+    
+    position: relative;
+    top: 50px;
+    right: 60px;
+}
+
 .btn-branding-outline {
     color: var(--secondary-color);
     border: 1px solid var(--secondary-color);
+    border-radius: 20px;
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;  
+}
+.btn-branding:hover {
+    background: white;
+    border-style: solid;
+    border-color: var(--secondary-color);
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+.btn-branding-outline:hover {
+    border-radius: 50%;
+    background: var(--secondary-color);
+    color: white;
 }
 .project-description {
     padding: 50px 30px;
@@ -94,7 +118,8 @@ font-size: 24px;
     }
    .content-container {
         text-align: center;
-        padding: 0;
+       
+
     }
 nav li {
         display: flex;
@@ -105,10 +130,6 @@ nav li {
     border-radius: 20px;
     
 }
-.content-container {
-    padding: 30px 20px;
-}
-
 .content-container h1 {
     font-family: var(--main-font);
     font-size: 64px;
@@ -188,9 +209,8 @@ nav li.active a {
 .contact-box h4 {
     font-family: var(--main-font);
     font-weight: bold;
-    font-size: 24px;
+    font-size: 48px;
     margin: 20px;
-
 }
 .contact-box p {
     margin-left: 40px;
@@ -198,14 +218,17 @@ nav li.active a {
 footer {
     margin: 60px 0;
 }
-.contact-box .btn-branding {
-   padding: 50px 50px;
-
-}
 .workimg img{
-    width: 420px;
+    width: 490px;
     height: 420px;
     border-style: solid;
     border-color: var(--secondary-color);
     border-radius: 45px;
+}
+iframe {
+    position: relative;
+    left: 70px;
+    height: 500px;
+    width: 495px;
+    border: 0;
 }
